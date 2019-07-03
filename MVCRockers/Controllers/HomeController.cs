@@ -23,10 +23,18 @@ namespace MVCRockers.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
+            ViewBag.Message = "What do you think?";
             return View();
         }
+
+
+        [HttpPost]
+        public ActionResult Contact(string message)
+        {
+            ViewBag.Message = "Thanks for the feedback!";
+            return View();
+        }
+
 
         public ActionResult Backstage(string secret, string format)
         {
