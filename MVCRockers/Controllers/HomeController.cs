@@ -10,6 +10,7 @@ namespace MVCRockers.Controllers
     {
         public ActionResult Index()
         {
+            //returns the default view
             return View();
         }
 
