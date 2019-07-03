@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCRockers", "MVCRockers\MVCRockers.csproj", "{982C20C4-3AAD-4C45-B9E3-83CDCE4D3123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCRockers.Tests", "MVCRockers.Tests\MVCRockers.Tests.csproj", "{56E425F5-1FA9-4EA0-8541-F6C9C59F6CA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{982C20C4-3AAD-4C45-B9E3-83CDCE4D3123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982C20C4-3AAD-4C45-B9E3-83CDCE4D3123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982C20C4-3AAD-4C45-B9E3-83CDCE4D3123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982C20C4-3AAD-4C45-B9E3-83CDCE4D3123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E425F5-1FA9-4EA0-8541-F6C9C59F6CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E425F5-1FA9-4EA0-8541-F6C9C59F6CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E425F5-1FA9-4EA0-8541-F6C9C59F6CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E425F5-1FA9-4EA0-8541-F6C9C59F6CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2D7521C-CA23-4FF7-BCD4-2B8239232ADE}
+	EndGlobalSection
+EndGlobal
