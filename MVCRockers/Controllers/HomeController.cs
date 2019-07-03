@@ -27,5 +27,23 @@ namespace MVCRockers.Controllers
 
             return View();
         }
+
+        public ActionResult Backstage(string secret, string format)
+        {
+            if (secret != "special")
+                return new HttpStatusCodeResult(403);
+
+            if (format == "text")
+                return Content("You Rock!");
+            else if (format == "json")
+                return Json(new { password = "You Rock!", expires = DateTime.UtcNow.ToShortDateString() }, JsonRequestBehavior.AllowGet);
+            else if (format == "clean")
+                return PartialView();
+
+                  
+            return View();
+            
+        }
+
     }
 }
